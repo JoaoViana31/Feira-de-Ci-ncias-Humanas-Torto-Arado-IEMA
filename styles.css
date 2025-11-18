@@ -154,7 +154,7 @@ body {
     padding:18px;
     background:var(--card);
     border-radius:14px;
-    box-shadow:var(--shadow);
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .section h3 {
@@ -210,6 +210,7 @@ body {
     background:linear-gradient(180deg,#fff,#fbfbfb);
     border:1px solid rgba(0,0,0,0.03);
     margin-bottom:12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
 
 .box-item .thumb {
@@ -260,6 +261,12 @@ body {
 .copy {
     font-size:13px;
     color:var(--muted);
+}
+
+ul{
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 @media(max-width:900px){
@@ -317,4 +324,9 @@ body {
     color: #333;
     text-decoration: none;
     font-weight: bold;
+}
+
+.h4-sub {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
 }
