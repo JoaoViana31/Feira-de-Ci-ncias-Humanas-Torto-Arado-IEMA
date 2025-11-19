@@ -330,3 +330,17 @@ ul{
     font-size: 1.6rem;
     margin-bottom: 10px;
 }
+
+.iema-insta {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 8px;
+    font-weight: 600;
+    color: var(--terracotta);
+}
+
+.iema-insta:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+}
